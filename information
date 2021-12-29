@@ -1,0 +1,25 @@
+DATABASE NAME = assignment;
+TABLES:-
+	1)BOOKS -- Columns:
+                id	 -->  integer type
+                title	 -->  varchar type
+                author	 -->  varchar type
+                isbn	 -->  integer type
+                language	 -->  varchar type
+                binding	 -->  varchar type
+                publication	 -->  varchar type
+                nop	 -->  integer type
+                cost	 -->  integer type
+                category	 -->  integer type
+                cover -->  varchar type
+
+    2)CATEGORY -- Columns:
+                cat_id --> integer
+                cat_title --> varchar
+
+    3)USER -- Columns:
+                user_id --> integer
+                name --> varchar
+                email --> varchar
+                password --> varchar
+                isadmin --> integer
